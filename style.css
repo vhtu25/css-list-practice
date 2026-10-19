@@ -1,0 +1,60 @@
+/* Thiết lập chung cho trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Định kiểu cho Bài tập tổng hợp: Lộ trình học lập trình Web */
+.roadmap-list {
+    /* Thay đổi kiểu đánh dấu thành số La Mã viết hoa (Phần 3) */
+    list-style-type: upper-roman;
+    
+    /* Vị trí dấu đánh dấu nằm bên trong khối (Phần 5) */
+    list-style-position: inside;
+
+    /* Màu nền cho toàn bộ danh sách (Phần 7) */
+    background-color: #eef2f3;
+
+    /* Tạo khoảng cách bên trong danh sách (Phần 7) */
+    padding: 20px 30px;
+
+    /* Tạo khoảng cách bên ngoài danh sách (Phần 7) */
+    margin: 20px 0;
+
+    /* Bo tròn góc danh sách cho đẹp mắt */
+    border-radius: 6px;
+}
+
+/* Thay đổi màu chữ và khoảng cách của các mục trong danh sách */
+.roadmap-list li {
+    color: #16a085;
+    font-weight: bold;
+    padding: 8px 0;
+    
+    /* Khoảng cách giữa các mục */
+    margin-bottom: 6px;
+    border-bottom: 1px dashed #cbd5e1;
+}
+
+/* Bỏ đường gạch chân ở mục cuối cùng cho gọn gàng */
+.roadmap-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
